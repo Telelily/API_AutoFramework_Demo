@@ -1,0 +1,336 @@
+2019-07-02 18:10:52 597 INFO  RestClient:41 - 开始发送get请求...
+2019-07-02 18:10:52 609 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-07-02 18:10:52 616 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-07-02 18:10:52 617 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://reqres.in:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2019-07-02 18:10:52 627 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://reqres.in:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-07-02 18:10:52 628 DEBUG MainClientExec:234 - Opening connection {s}->https://reqres.in:443
+2019-07-02 18:10:52 634 DEBUG DefaultHttpClientConnectionOperator:138 - Connecting to reqres.in/104.27.135.11:443
+2019-07-02 18:10:52 634 DEBUG SSLConnectionSocketFactory:335 - Connecting socket to reqres.in/104.27.135.11:443 with timeout 0
+2019-07-02 18:10:52 721 DEBUG SSLConnectionSocketFactory:388 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2019-07-02 18:10:52 721 DEBUG SSLConnectionSocketFactory:389 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2019-07-02 18:10:52 721 DEBUG SSLConnectionSocketFactory:393 - Starting handshake
+2019-07-02 18:10:52 864 DEBUG SSLConnectionSocketFactory:423 - Secure session established
+2019-07-02 18:10:52 865 DEBUG SSLConnectionSocketFactory:424 -  negotiated protocol: TLSv1.2
+2019-07-02 18:10:52 865 DEBUG SSLConnectionSocketFactory:425 -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+2019-07-02 18:10:52 866 DEBUG SSLConnectionSocketFactory:433 -  peer principal: CN=sni96286.cloudflaressl.com, OU=PositiveSSL Multi-Domain, OU=Domain Control Validated
+2019-07-02 18:10:52 867 DEBUG SSLConnectionSocketFactory:442 -  peer alternative names: [sni96286.cloudflaressl.com, *.alypa.cl, *.arredamentobar.altervista.org, *.balloornssq.tk, *.candfortcogci.ml, *.cetiontop.tk, *.dhcmx.com, *.dogtklonfercver.cf, *.getthedjobsq.ga, *.gogwamiri.ga, *.hurtworld-servers.ru, *.instintobasico.com.br, *.jedzto.ga, *.kemiyyru.cf, *.murdochfamily.id.au, *.precisioncleaninghawaii.com, *.ranalemdi.cf, *.reqres.in, *.rescatevalencia.org, *.rorimaq.com.br, *.siemon.id.au, *.tetete.ru, *.thrivenowseminars.com, *.tiotrominti.ga, *.tivpihelpsq.cf, *.tonysnails.com, *.trochbannomer.cf, *.visiondefender.co.uk, *.ymyhyjydexy.tk, alypa.cl, arredamentobar.altervista.org, balloornssq.tk, candfortcogci.ml, cetiontop.tk, dhcmx.com, dogtklonfercver.cf, getthedjobsq.ga, gogwamiri.ga, hurtworld-servers.ru, instintobasico.com.br, jedzto.ga, kemiyyru.cf, murdochfamily.id.au, precisioncleaninghawaii.com, ranalemdi.cf, reqres.in, rescatevalencia.org, rorimaq.com.br, siemon.id.au, tetete.ru, thrivenowseminars.com, tiotrominti.ga, tivpihelpsq.cf, tonysnails.com, trochbannomer.cf, visiondefender.co.uk, ymyhyjydexy.tk]
+2019-07-02 18:10:52 870 DEBUG SSLConnectionSocketFactory:446 -  issuer principal: CN=COMODO ECC Domain Validation Secure Server CA 2, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB
+2019-07-02 18:10:52 884 DEBUG DefaultHttpClientConnectionOperator:145 - Connection established 172.16.47.173:50907<->104.27.135.11:443
+2019-07-02 18:10:52 886 DEBUG MainClientExec:255 - Executing request GET /api/users?page=2 HTTP/1.1
+2019-07-02 18:10:52 886 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-07-02 18:10:52 889 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-07-02 18:10:52 893 DEBUG headers:135 - http-outgoing-0 >> GET /api/users?page=2 HTTP/1.1
+2019-07-02 18:10:52 894 DEBUG headers:138 - http-outgoing-0 >> Host: reqres.in
+2019-07-02 18:10:52 894 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2019-07-02 18:10:52 895 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2019-07-02 18:10:52 896 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-07-02 18:10:52 897 DEBUG wire:72 - http-outgoing-0 >> "GET /api/users?page=2 HTTP/1.1[\r][\n]"
+2019-07-02 18:10:52 897 DEBUG wire:72 - http-outgoing-0 >> "Host: reqres.in[\r][\n]"
+2019-07-02 18:10:52 898 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-07-02 18:10:52 898 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2019-07-02 18:10:52 899 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-07-02 18:10:52 899 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2019-07-02 18:10:52 960 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-07-02 18:10:52 961 DEBUG wire:72 - http-outgoing-0 << "Date: Tue, 02 Jul 2019 10:10:52 GMT[\r][\n]"
+2019-07-02 18:10:52 962 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-07-02 18:10:52 963 DEBUG wire:72 - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2019-07-02 18:10:52 963 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2019-07-02 18:10:52 964 DEBUG wire:72 - http-outgoing-0 << "Set-Cookie: __cfduid=d69d530c404a37ad1c79733e394f64aaa1562062252; expires=Wed, 01-Jul-20 10:10:52 GMT; path=/; domain=.reqres.in; HttpOnly; Secure[\r][\n]"
+2019-07-02 18:10:52 964 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2019-07-02 18:10:52 965 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-07-02 18:10:52 965 DEBUG wire:72 - http-outgoing-0 << "Etag: W/"21c-V3l8h04l5/8zLV+i3u8GJo8G3Y8"[\r][\n]"
+2019-07-02 18:10:52 966 DEBUG wire:72 - http-outgoing-0 << "Via: 1.1 vegur[\r][\n]"
+2019-07-02 18:10:52 966 DEBUG wire:72 - http-outgoing-0 << "CF-Cache-Status: HIT[\r][\n]"
+2019-07-02 18:10:52 967 DEBUG wire:72 - http-outgoing-0 << "Age: 3728[\r][\n]"
+2019-07-02 18:10:52 967 DEBUG wire:72 - http-outgoing-0 << "Expires: Tue, 02 Jul 2019 14:10:52 GMT[\r][\n]"
+2019-07-02 18:10:52 968 DEBUG wire:72 - http-outgoing-0 << "Cache-Control: public, max-age=14400[\r][\n]"
+2019-07-02 18:10:52 968 DEBUG wire:72 - http-outgoing-0 << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2019-07-02 18:10:52 969 DEBUG wire:72 - http-outgoing-0 << "Vary: Accept-Encoding[\r][\n]"
+2019-07-02 18:10:52 969 DEBUG wire:72 - http-outgoing-0 << "Server: cloudflare[\r][\n]"
+2019-07-02 18:10:52 970 DEBUG wire:72 - http-outgoing-0 << "CF-RAY: 4effd5164bced18f-HKG[\r][\n]"
+2019-07-02 18:10:52 971 DEBUG wire:72 - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2019-07-02 18:10:52 972 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-07-02 18:10:52 973 DEBUG wire:72 - http-outgoing-0 << "f9[\r][\n]"
+2019-07-02 18:10:52 974 DEBUG wire:72 - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xa5][0xce]MK[0x3]1[0x10][0x6][0xe0][0xff]2[0xe7][0x90][0xd0][0xad][0x8a][0xe4]$[0x88][0xe0][0xc5][0x8b][0xf4]&R[0xc6]t[0xba][0x9b][0x92]d[0xb6][0x93]q[0x8b][0x96][0xfe]wqWX[0xa8][0xe8][0xa5][0x97]a[0xbe]^x[0x8e][0xd0]cK[0xe0][0x1b][0x3]=[0xc9]z[0x1a][0x96][0x6][0x94][0x15][0x13][0xf8]E[0xf3][0xd3][0x8e][0x97][\n]"
+2019-07-02 18:10:52 975 DEBUG wire:72 - http-outgoing-0 << "[0xfe][0xca][0xc0][0x6][0x15][0xc1][0xbf][0x1c]!n[0xc6][0x99]2[0xc6][0x4][0x1e]h [0xdb]q[0xd2];[0xa1][0xbd]P[0xb5][0xb1][0x80][0x81]m[0x94][0xaa][0xeb][0x82][0x99][0xc0][0xc3][0xc3]@` [0xe1][0xbc]y[0xe4][0xa4]`[0x0][0x7]T[0x14][0xf0][0xd0][0xa9][0xf6][0xd5];W[0x97][0x16]3~r[0xc1]C[0xb5][0x81][0xb3]{[0x8f][[0xc]T[0xdd]T[0xf5][0x10]UI\F[0x9],[0x98][0xa3]Pu[0x8b][0xe6][0xd6][0xee][0xfa][0x16]Nf[0xa2]][0xcf][0xb4][0xd0][0xa1]$[0xaa]6[0xb3]H[0xac][0x3][0xef][0xa7][0xbf]3[0xe4][0xd3][0x98][0xba][0x80]Y[0x95][0xfa][0x8e]Jf.[0xbf][0x94]7[0xb3]R[0x5][0x3]}X[0xc1][0xcc][0xff][0x18]W[0xe3][0xd7][0x19][0xf1][0xf9];s[0x81][0xf0]-[0xb6][0x19]K[0xe8]x[0xf6][0xbd][0x9e][0xbe][0x0]]zu[0xb8][0x1c][0x2][0x0][0x0][\r][\n]"
+2019-07-02 18:10:52 981 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-07-02 18:10:52 982 DEBUG headers:127 - http-outgoing-0 << Date: Tue, 02 Jul 2019 10:10:52 GMT
+2019-07-02 18:10:52 983 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2019-07-02 18:10:52 983 DEBUG headers:127 - http-outgoing-0 << Transfer-Encoding: chunked
+2019-07-02 18:10:52 983 DEBUG headers:127 - http-outgoing-0 << Connection: keep-alive
+2019-07-02 18:10:52 984 DEBUG headers:127 - http-outgoing-0 << Set-Cookie: __cfduid=d69d530c404a37ad1c79733e394f64aaa1562062252; expires=Wed, 01-Jul-20 10:10:52 GMT; path=/; domain=.reqres.in; HttpOnly; Secure
+2019-07-02 18:10:52 984 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: Express
+2019-07-02 18:10:52 985 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+2019-07-02 18:10:52 985 DEBUG headers:127 - http-outgoing-0 << Etag: W/"21c-V3l8h04l5/8zLV+i3u8GJo8G3Y8"
+2019-07-02 18:10:52 986 DEBUG headers:127 - http-outgoing-0 << Via: 1.1 vegur
+2019-07-02 18:10:52 986 DEBUG headers:127 - http-outgoing-0 << CF-Cache-Status: HIT
+2019-07-02 18:10:52 987 DEBUG headers:127 - http-outgoing-0 << Age: 3728
+2019-07-02 18:10:52 987 DEBUG headers:127 - http-outgoing-0 << Expires: Tue, 02 Jul 2019 14:10:52 GMT
+2019-07-02 18:10:52 988 DEBUG headers:127 - http-outgoing-0 << Cache-Control: public, max-age=14400
+2019-07-02 18:10:52 989 DEBUG headers:127 - http-outgoing-0 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2019-07-02 18:10:52 989 DEBUG headers:127 - http-outgoing-0 << Vary: Accept-Encoding
+2019-07-02 18:10:52 989 DEBUG headers:127 - http-outgoing-0 << Server: cloudflare
+2019-07-02 18:10:52 990 DEBUG headers:127 - http-outgoing-0 << CF-RAY: 4effd5164bced18f-HKG
+2019-07-02 18:10:52 990 DEBUG headers:127 - http-outgoing-0 << Content-Encoding: gzip
+2019-07-02 18:10:53 007 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-07-02 18:10:53 018 DEBUG ResponseProcessCookies:118 - Cookie accepted [__cfduid="d69d530c404a37ad1c79733e394f64aaa1562062252", version:0, domain:reqres.in, path:/, expiry:Wed Jul 01 18:10:52 CST 2020]
+2019-07-02 18:10:53 019 INFO  RestClient:43 - 发送请求成功！开始得到响应对象。
+2019-07-02 18:10:53 019 INFO  RestClient:146 - 解析，得到响应状态码:200
+2019-07-02 18:10:53 020 INFO  RestClient:160 - 得到响应对象的String格式
+2019-07-02 18:10:53 024 DEBUG wire:72 - http-outgoing-0 << "0[\r][\n]"
+2019-07-02 18:10:53 024 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-07-02 18:10:53 024 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://reqres.in:443] can be kept alive indefinitely
+2019-07-02 18:10:53 025 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://reqres.in:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-07-02 18:10:53 079 INFO  RestClient:163 - 返回响应内容的JSON格式
+2019-07-02 18:12:10 172 INFO  RestClient:41 - 开始发送get请求...
+2019-07-02 18:12:10 184 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-07-02 18:12:10 191 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-07-02 18:12:10 192 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://reqres.in:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2019-07-02 18:12:10 200 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://reqres.in:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-07-02 18:12:10 201 DEBUG MainClientExec:234 - Opening connection {s}->https://reqres.in:443
+2019-07-02 18:12:10 205 DEBUG DefaultHttpClientConnectionOperator:138 - Connecting to reqres.in/104.27.135.11:443
+2019-07-02 18:12:10 205 DEBUG SSLConnectionSocketFactory:335 - Connecting socket to reqres.in/104.27.135.11:443 with timeout 0
+2019-07-02 18:12:10 372 DEBUG SSLConnectionSocketFactory:388 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2019-07-02 18:12:10 373 DEBUG SSLConnectionSocketFactory:389 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2019-07-02 18:12:10 373 DEBUG SSLConnectionSocketFactory:393 - Starting handshake
+2019-07-02 18:12:11 059 DEBUG SSLConnectionSocketFactory:423 - Secure session established
+2019-07-02 18:12:11 060 DEBUG SSLConnectionSocketFactory:424 -  negotiated protocol: TLSv1.2
+2019-07-02 18:12:11 060 DEBUG SSLConnectionSocketFactory:425 -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+2019-07-02 18:12:11 061 DEBUG SSLConnectionSocketFactory:433 -  peer principal: CN=sni96286.cloudflaressl.com, OU=PositiveSSL Multi-Domain, OU=Domain Control Validated
+2019-07-02 18:12:11 062 DEBUG SSLConnectionSocketFactory:442 -  peer alternative names: [sni96286.cloudflaressl.com, *.alypa.cl, *.arredamentobar.altervista.org, *.balloornssq.tk, *.candfortcogci.ml, *.cetiontop.tk, *.dhcmx.com, *.dogtklonfercver.cf, *.getthedjobsq.ga, *.gogwamiri.ga, *.hurtworld-servers.ru, *.instintobasico.com.br, *.jedzto.ga, *.kemiyyru.cf, *.murdochfamily.id.au, *.precisioncleaninghawaii.com, *.ranalemdi.cf, *.reqres.in, *.rescatevalencia.org, *.rorimaq.com.br, *.siemon.id.au, *.tetete.ru, *.thrivenowseminars.com, *.tiotrominti.ga, *.tivpihelpsq.cf, *.tonysnails.com, *.trochbannomer.cf, *.visiondefender.co.uk, *.ymyhyjydexy.tk, alypa.cl, arredamentobar.altervista.org, balloornssq.tk, candfortcogci.ml, cetiontop.tk, dhcmx.com, dogtklonfercver.cf, getthedjobsq.ga, gogwamiri.ga, hurtworld-servers.ru, instintobasico.com.br, jedzto.ga, kemiyyru.cf, murdochfamily.id.au, precisioncleaninghawaii.com, ranalemdi.cf, reqres.in, rescatevalencia.org, rorimaq.com.br, siemon.id.au, tetete.ru, thrivenowseminars.com, tiotrominti.ga, tivpihelpsq.cf, tonysnails.com, trochbannomer.cf, visiondefender.co.uk, ymyhyjydexy.tk]
+2019-07-02 18:12:11 066 DEBUG SSLConnectionSocketFactory:446 -  issuer principal: CN=COMODO ECC Domain Validation Secure Server CA 2, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB
+2019-07-02 18:12:11 076 DEBUG DefaultHttpClientConnectionOperator:145 - Connection established 172.16.47.173:50937<->104.27.135.11:443
+2019-07-02 18:12:11 077 DEBUG MainClientExec:255 - Executing request GET /api/users?page=2 HTTP/1.1
+2019-07-02 18:12:11 077 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-07-02 18:12:11 078 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-07-02 18:12:11 080 DEBUG headers:135 - http-outgoing-0 >> GET /api/users?page=2 HTTP/1.1
+2019-07-02 18:12:11 080 DEBUG headers:138 - http-outgoing-0 >> Host: reqres.in
+2019-07-02 18:12:11 081 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2019-07-02 18:12:11 081 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2019-07-02 18:12:11 081 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-07-02 18:12:11 081 DEBUG wire:72 - http-outgoing-0 >> "GET /api/users?page=2 HTTP/1.1[\r][\n]"
+2019-07-02 18:12:11 082 DEBUG wire:72 - http-outgoing-0 >> "Host: reqres.in[\r][\n]"
+2019-07-02 18:12:11 082 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-07-02 18:12:11 082 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2019-07-02 18:12:11 083 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-07-02 18:12:11 083 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2019-07-02 18:12:11 547 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-07-02 18:12:11 547 DEBUG wire:72 - http-outgoing-0 << "Date: Tue, 02 Jul 2019 10:12:10 GMT[\r][\n]"
+2019-07-02 18:12:11 547 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-07-02 18:12:11 547 DEBUG wire:72 - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2019-07-02 18:12:11 547 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2019-07-02 18:12:11 547 DEBUG wire:72 - http-outgoing-0 << "Set-Cookie: __cfduid=d3c6df4660f3bedf8850b730f485173ab1562062330; expires=Wed, 01-Jul-20 10:12:10 GMT; path=/; domain=.reqres.in; HttpOnly; Secure[\r][\n]"
+2019-07-02 18:12:11 548 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2019-07-02 18:12:11 548 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-07-02 18:12:11 548 DEBUG wire:72 - http-outgoing-0 << "Etag: W/"21c-V3l8h04l5/8zLV+i3u8GJo8G3Y8"[\r][\n]"
+2019-07-02 18:12:11 548 DEBUG wire:72 - http-outgoing-0 << "Via: 1.1 vegur[\r][\n]"
+2019-07-02 18:12:11 548 DEBUG wire:72 - http-outgoing-0 << "CF-Cache-Status: HIT[\r][\n]"
+2019-07-02 18:12:11 548 DEBUG wire:72 - http-outgoing-0 << "Age: 3806[\r][\n]"
+2019-07-02 18:12:11 548 DEBUG wire:72 - http-outgoing-0 << "Expires: Tue, 02 Jul 2019 14:12:10 GMT[\r][\n]"
+2019-07-02 18:12:11 548 DEBUG wire:72 - http-outgoing-0 << "Cache-Control: public, max-age=14400[\r][\n]"
+2019-07-02 18:12:11 548 DEBUG wire:72 - http-outgoing-0 << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2019-07-02 18:12:11 548 DEBUG wire:72 - http-outgoing-0 << "Vary: Accept-Encoding[\r][\n]"
+2019-07-02 18:12:11 549 DEBUG wire:72 - http-outgoing-0 << "Server: cloudflare[\r][\n]"
+2019-07-02 18:12:11 549 DEBUG wire:72 - http-outgoing-0 << "CF-RAY: 4effd6feea8b336b-HKG[\r][\n]"
+2019-07-02 18:12:11 549 DEBUG wire:72 - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2019-07-02 18:12:11 549 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-07-02 18:12:11 549 DEBUG wire:72 - http-outgoing-0 << "f9[\r][\n]"
+2019-07-02 18:12:11 549 DEBUG wire:72 - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xa5][0xce]MK[0x3]1[0x10][0x6][0xe0][0xff]2[0xe7][0x90][0xd0][0xad][0x8a][0xe4]$[0x88][0xe0][0xc5][0x8b][0xf4]&R[0xc6]t[0xba][0x9b][0x92]d[0xb6][0x93]q[0x8b][0x96][0xfe]wqWX[0xa8][0xe8][0xa5][0x97]a[0xbe]^x[0x8e][0xd0]cK[0xe0][0x1b][0x3]=[0xc9]z[0x1a][0x96][0x6][0x94][0x15][0x13][0xf8]E[0xf3][0xd3][0x8e][0x97][\n]"
+2019-07-02 18:12:11 549 DEBUG wire:72 - http-outgoing-0 << "[0xfe][0xca][0xc0][0x6][0x15][0xc1][0xbf][0x1c]!n[0xc6][0x99]2[0xc6][0x4][0x1e]h [0xdb]q[0xd2];[0xa1][0xbd]P[0xb5][0xb1][0x80][0x81]m[0x94][0xaa][0xeb][0x82][0x99][0xc0][0xc3][0xc3]@` [0xe1][0xbc]y[0xe4][0xa4]`[0x0][0x7]T[0x14][0xf0][0xd0][0xa9][0xf6][0xd5];W[0x97][0x16]3~r[0xc1]C[0xb5][0x81][0xb3]{[0x8f][[0xc]T[0xdd]T[0xf5][0x10]UI\F[0x9],[0x98][0xa3]Pu[0x8b][0xe6][0xd6][0xee][0xfa][0x16]Nf[0xa2]][0xcf][0xb4][0xd0][0xa1]$[0xaa]6[0xb3]H[0xac][0x3][0xef][0xa7][0xbf]3[0xe4][0xd3][0x98][0xba][0x80]Y[0x95][0xfa][0x8e]Jf.[0xbf][0x94]7[0xb3]R[0x5][0x3]}X[0xc1][0xcc][0xff][0x18]W[0xe3][0xd7][0x19][0xf1][0xf9];s[0x81][0xf0]-[0xb6][0x19]K[0xe8]x[0xf6][0xbd][0x9e][0xbe][0x0]]zu[0xb8][0x1c][0x2][0x0][0x0][\r][\n]"
+2019-07-02 18:12:11 551 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-07-02 18:12:11 551 DEBUG headers:127 - http-outgoing-0 << Date: Tue, 02 Jul 2019 10:12:10 GMT
+2019-07-02 18:12:11 551 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2019-07-02 18:12:11 551 DEBUG headers:127 - http-outgoing-0 << Transfer-Encoding: chunked
+2019-07-02 18:12:11 551 DEBUG headers:127 - http-outgoing-0 << Connection: keep-alive
+2019-07-02 18:12:11 551 DEBUG headers:127 - http-outgoing-0 << Set-Cookie: __cfduid=d3c6df4660f3bedf8850b730f485173ab1562062330; expires=Wed, 01-Jul-20 10:12:10 GMT; path=/; domain=.reqres.in; HttpOnly; Secure
+2019-07-02 18:12:11 551 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: Express
+2019-07-02 18:12:11 552 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+2019-07-02 18:12:11 552 DEBUG headers:127 - http-outgoing-0 << Etag: W/"21c-V3l8h04l5/8zLV+i3u8GJo8G3Y8"
+2019-07-02 18:12:11 552 DEBUG headers:127 - http-outgoing-0 << Via: 1.1 vegur
+2019-07-02 18:12:11 552 DEBUG headers:127 - http-outgoing-0 << CF-Cache-Status: HIT
+2019-07-02 18:12:11 552 DEBUG headers:127 - http-outgoing-0 << Age: 3806
+2019-07-02 18:12:11 552 DEBUG headers:127 - http-outgoing-0 << Expires: Tue, 02 Jul 2019 14:12:10 GMT
+2019-07-02 18:12:11 552 DEBUG headers:127 - http-outgoing-0 << Cache-Control: public, max-age=14400
+2019-07-02 18:12:11 552 DEBUG headers:127 - http-outgoing-0 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2019-07-02 18:12:11 553 DEBUG headers:127 - http-outgoing-0 << Vary: Accept-Encoding
+2019-07-02 18:12:11 553 DEBUG headers:127 - http-outgoing-0 << Server: cloudflare
+2019-07-02 18:12:11 553 DEBUG headers:127 - http-outgoing-0 << CF-RAY: 4effd6feea8b336b-HKG
+2019-07-02 18:12:11 553 DEBUG headers:127 - http-outgoing-0 << Content-Encoding: gzip
+2019-07-02 18:12:11 558 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-07-02 18:12:11 564 DEBUG ResponseProcessCookies:118 - Cookie accepted [__cfduid="d3c6df4660f3bedf8850b730f485173ab1562062330", version:0, domain:reqres.in, path:/, expiry:Wed Jul 01 18:12:10 CST 2020]
+2019-07-02 18:12:11 564 INFO  RestClient:43 - 发送请求成功！开始得到响应对象。
+2019-07-02 18:12:11 565 INFO  RestClient:146 - 解析，得到响应状态码:200
+2019-07-02 18:12:11 566 INFO  RestClient:160 - 得到响应对象的String格式
+2019-07-02 18:12:11 568 DEBUG wire:72 - http-outgoing-0 << "0[\r][\n]"
+2019-07-02 18:12:11 568 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-07-02 18:12:11 568 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://reqres.in:443] can be kept alive indefinitely
+2019-07-02 18:12:11 568 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://reqres.in:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-07-02 18:12:11 612 INFO  RestClient:163 - 返回响应内容的JSON格式
+2019-07-02 18:17:03 259 INFO  RestClient:41 - 开始发送get请求...
+2019-07-02 18:17:03 272 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-07-02 18:17:03 277 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-07-02 18:17:03 278 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://reqres.in:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2019-07-02 18:17:03 286 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://reqres.in:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-07-02 18:17:03 287 DEBUG MainClientExec:234 - Opening connection {s}->https://reqres.in:443
+2019-07-02 18:17:03 291 DEBUG DefaultHttpClientConnectionOperator:138 - Connecting to reqres.in/104.27.135.11:443
+2019-07-02 18:17:03 291 DEBUG SSLConnectionSocketFactory:335 - Connecting socket to reqres.in/104.27.135.11:443 with timeout 0
+2019-07-02 18:17:03 470 DEBUG SSLConnectionSocketFactory:388 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2019-07-02 18:17:03 470 DEBUG SSLConnectionSocketFactory:389 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2019-07-02 18:17:03 471 DEBUG SSLConnectionSocketFactory:393 - Starting handshake
+2019-07-02 18:17:04 239 DEBUG SSLConnectionSocketFactory:423 - Secure session established
+2019-07-02 18:17:04 240 DEBUG SSLConnectionSocketFactory:424 -  negotiated protocol: TLSv1.2
+2019-07-02 18:17:04 240 DEBUG SSLConnectionSocketFactory:425 -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+2019-07-02 18:17:04 240 DEBUG SSLConnectionSocketFactory:433 -  peer principal: CN=sni96286.cloudflaressl.com, OU=PositiveSSL Multi-Domain, OU=Domain Control Validated
+2019-07-02 18:17:04 241 DEBUG SSLConnectionSocketFactory:442 -  peer alternative names: [sni96286.cloudflaressl.com, *.alypa.cl, *.arredamentobar.altervista.org, *.balloornssq.tk, *.candfortcogci.ml, *.cetiontop.tk, *.dhcmx.com, *.dogtklonfercver.cf, *.getthedjobsq.ga, *.gogwamiri.ga, *.hurtworld-servers.ru, *.instintobasico.com.br, *.jedzto.ga, *.kemiyyru.cf, *.murdochfamily.id.au, *.precisioncleaninghawaii.com, *.ranalemdi.cf, *.reqres.in, *.rescatevalencia.org, *.rorimaq.com.br, *.siemon.id.au, *.tetete.ru, *.thrivenowseminars.com, *.tiotrominti.ga, *.tivpihelpsq.cf, *.tonysnails.com, *.trochbannomer.cf, *.visiondefender.co.uk, *.ymyhyjydexy.tk, alypa.cl, arredamentobar.altervista.org, balloornssq.tk, candfortcogci.ml, cetiontop.tk, dhcmx.com, dogtklonfercver.cf, getthedjobsq.ga, gogwamiri.ga, hurtworld-servers.ru, instintobasico.com.br, jedzto.ga, kemiyyru.cf, murdochfamily.id.au, precisioncleaninghawaii.com, ranalemdi.cf, reqres.in, rescatevalencia.org, rorimaq.com.br, siemon.id.au, tetete.ru, thrivenowseminars.com, tiotrominti.ga, tivpihelpsq.cf, tonysnails.com, trochbannomer.cf, visiondefender.co.uk, ymyhyjydexy.tk]
+2019-07-02 18:17:04 242 DEBUG SSLConnectionSocketFactory:446 -  issuer principal: CN=COMODO ECC Domain Validation Secure Server CA 2, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB
+2019-07-02 18:17:04 245 DEBUG DefaultHttpClientConnectionOperator:145 - Connection established 172.16.47.173:51134<->104.27.135.11:443
+2019-07-02 18:17:04 246 DEBUG MainClientExec:255 - Executing request GET /api/users?page=2 HTTP/1.1
+2019-07-02 18:17:04 246 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-07-02 18:17:04 246 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-07-02 18:17:04 247 DEBUG headers:135 - http-outgoing-0 >> GET /api/users?page=2 HTTP/1.1
+2019-07-02 18:17:04 248 DEBUG headers:138 - http-outgoing-0 >> Host: reqres.in
+2019-07-02 18:17:04 248 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2019-07-02 18:17:04 248 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2019-07-02 18:17:04 248 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-07-02 18:17:04 248 DEBUG wire:72 - http-outgoing-0 >> "GET /api/users?page=2 HTTP/1.1[\r][\n]"
+2019-07-02 18:17:04 248 DEBUG wire:72 - http-outgoing-0 >> "Host: reqres.in[\r][\n]"
+2019-07-02 18:17:04 248 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-07-02 18:17:04 249 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2019-07-02 18:17:04 249 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-07-02 18:17:04 249 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2019-07-02 18:17:04 376 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-07-02 18:17:04 376 DEBUG wire:72 - http-outgoing-0 << "Date: Tue, 02 Jul 2019 10:17:03 GMT[\r][\n]"
+2019-07-02 18:17:04 376 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-07-02 18:17:04 376 DEBUG wire:72 - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2019-07-02 18:17:04 376 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2019-07-02 18:17:04 376 DEBUG wire:72 - http-outgoing-0 << "Set-Cookie: __cfduid=de6278c880b1754446c3a3f77f69607f01562062623; expires=Wed, 01-Jul-20 10:17:03 GMT; path=/; domain=.reqres.in; HttpOnly; Secure[\r][\n]"
+2019-07-02 18:17:04 377 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2019-07-02 18:17:04 377 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-07-02 18:17:04 377 DEBUG wire:72 - http-outgoing-0 << "Etag: W/"21c-V3l8h04l5/8zLV+i3u8GJo8G3Y8"[\r][\n]"
+2019-07-02 18:17:04 377 DEBUG wire:72 - http-outgoing-0 << "Via: 1.1 vegur[\r][\n]"
+2019-07-02 18:17:04 377 DEBUG wire:72 - http-outgoing-0 << "CF-Cache-Status: HIT[\r][\n]"
+2019-07-02 18:17:04 377 DEBUG wire:72 - http-outgoing-0 << "Age: 4099[\r][\n]"
+2019-07-02 18:17:04 377 DEBUG wire:72 - http-outgoing-0 << "Expires: Tue, 02 Jul 2019 14:17:03 GMT[\r][\n]"
+2019-07-02 18:17:04 377 DEBUG wire:72 - http-outgoing-0 << "Cache-Control: public, max-age=14400[\r][\n]"
+2019-07-02 18:17:04 377 DEBUG wire:72 - http-outgoing-0 << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2019-07-02 18:17:04 377 DEBUG wire:72 - http-outgoing-0 << "Vary: Accept-Encoding[\r][\n]"
+2019-07-02 18:17:04 378 DEBUG wire:72 - http-outgoing-0 << "Server: cloudflare[\r][\n]"
+2019-07-02 18:17:04 378 DEBUG wire:72 - http-outgoing-0 << "CF-RAY: 4effde272bcc3383-HKG[\r][\n]"
+2019-07-02 18:17:04 378 DEBUG wire:72 - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2019-07-02 18:17:04 378 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-07-02 18:17:04 378 DEBUG wire:72 - http-outgoing-0 << "f9[\r][\n]"
+2019-07-02 18:17:04 378 DEBUG wire:72 - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xa5][0xce]MK[0x3]1[0x10][0x6][0xe0][0xff]2[0xe7][0x90][0xd0][0xad][0x8a][0xe4]$[0x88][0xe0][0xc5][0x8b][0xf4]&R[0xc6]t[0xba][0x9b][0x92]d[0xb6][0x93]q[0x8b][0x96][0xfe]wqWX[0xa8][0xe8][0xa5][0x97]a[0xbe]^x[0x8e][0xd0]cK[0xe0][0x1b][0x3]=[0xc9]z[0x1a][0x96][0x6][0x94][0x15][0x13][0xf8]E[0xf3][0xd3][0x8e][0x97][\n]"
+2019-07-02 18:17:04 378 DEBUG wire:72 - http-outgoing-0 << "[0xfe][0xca][0xc0][0x6][0x15][0xc1][0xbf][0x1c]!n[0xc6][0x99]2[0xc6][0x4][0x1e]h [0xdb]q[0xd2];[0xa1][0xbd]P[0xb5][0xb1][0x80][0x81]m[0x94][0xaa][0xeb][0x82][0x99][0xc0][0xc3][0xc3]@` [0xe1][0xbc]y[0xe4][0xa4]`[0x0][0x7]T[0x14][0xf0][0xd0][0xa9][0xf6][0xd5];W[0x97][0x16]3~r[0xc1]C[0xb5][0x81][0xb3]{[0x8f][[0xc]T[0xdd]T[0xf5][0x10]UI\F[0x9],[0x98][0xa3]Pu[0x8b][0xe6][0xd6][0xee][0xfa][0x16]Nf[0xa2]][0xcf][0xb4][0xd0][0xa1]$[0xaa]6[0xb3]H[0xac][0x3][0xef][0xa7][0xbf]3[0xe4][0xd3][0x98][0xba][0x80]Y[0x95][0xfa][0x8e]Jf.[0xbf][0x94]7[0xb3]R[0x5][0x3]}X[0xc1][0xcc][0xff][0x18]W[0xe3][0xd7][0x19][0xf1][0xf9];s[0x81][0xf0]-[0xb6][0x19]K[0xe8]x[0xf6][0xbd][0x9e][0xbe][0x0]]zu[0xb8][0x1c][0x2][0x0][0x0][\r][\n]"
+2019-07-02 18:17:04 380 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-07-02 18:17:04 380 DEBUG headers:127 - http-outgoing-0 << Date: Tue, 02 Jul 2019 10:17:03 GMT
+2019-07-02 18:17:04 380 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2019-07-02 18:17:04 380 DEBUG headers:127 - http-outgoing-0 << Transfer-Encoding: chunked
+2019-07-02 18:17:04 380 DEBUG headers:127 - http-outgoing-0 << Connection: keep-alive
+2019-07-02 18:17:04 380 DEBUG headers:127 - http-outgoing-0 << Set-Cookie: __cfduid=de6278c880b1754446c3a3f77f69607f01562062623; expires=Wed, 01-Jul-20 10:17:03 GMT; path=/; domain=.reqres.in; HttpOnly; Secure
+2019-07-02 18:17:04 380 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: Express
+2019-07-02 18:17:04 380 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+2019-07-02 18:17:04 380 DEBUG headers:127 - http-outgoing-0 << Etag: W/"21c-V3l8h04l5/8zLV+i3u8GJo8G3Y8"
+2019-07-02 18:17:04 381 DEBUG headers:127 - http-outgoing-0 << Via: 1.1 vegur
+2019-07-02 18:17:04 381 DEBUG headers:127 - http-outgoing-0 << CF-Cache-Status: HIT
+2019-07-02 18:17:04 381 DEBUG headers:127 - http-outgoing-0 << Age: 4099
+2019-07-02 18:17:04 381 DEBUG headers:127 - http-outgoing-0 << Expires: Tue, 02 Jul 2019 14:17:03 GMT
+2019-07-02 18:17:04 381 DEBUG headers:127 - http-outgoing-0 << Cache-Control: public, max-age=14400
+2019-07-02 18:17:04 381 DEBUG headers:127 - http-outgoing-0 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2019-07-02 18:17:04 381 DEBUG headers:127 - http-outgoing-0 << Vary: Accept-Encoding
+2019-07-02 18:17:04 381 DEBUG headers:127 - http-outgoing-0 << Server: cloudflare
+2019-07-02 18:17:04 381 DEBUG headers:127 - http-outgoing-0 << CF-RAY: 4effde272bcc3383-HKG
+2019-07-02 18:17:04 381 DEBUG headers:127 - http-outgoing-0 << Content-Encoding: gzip
+2019-07-02 18:17:04 387 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-07-02 18:17:04 393 DEBUG ResponseProcessCookies:118 - Cookie accepted [__cfduid="de6278c880b1754446c3a3f77f69607f01562062623", version:0, domain:reqres.in, path:/, expiry:Wed Jul 01 18:17:03 CST 2020]
+2019-07-02 18:17:04 393 INFO  RestClient:43 - 发送请求成功！开始得到响应对象。
+2019-07-02 18:17:04 393 INFO  RestClient:146 - 解析，得到响应状态码:200
+2019-07-02 18:17:04 395 INFO  RestClient:160 - 得到响应对象的String格式
+2019-07-02 18:17:04 397 DEBUG wire:72 - http-outgoing-0 << "0[\r][\n]"
+2019-07-02 18:17:04 397 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-07-02 18:17:04 397 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://reqres.in:443] can be kept alive indefinitely
+2019-07-02 18:17:04 398 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://reqres.in:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-07-02 18:17:04 444 INFO  RestClient:163 - 返回响应内容的JSON格式
+2019-07-02 18:19:10 078 INFO  RestClient:41 - 开始发送get请求...
+2019-07-02 18:19:10 090 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-07-02 18:19:10 096 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-07-02 18:19:10 096 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://reqres.in:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2019-07-02 18:19:10 104 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://reqres.in:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-07-02 18:19:10 105 DEBUG MainClientExec:234 - Opening connection {s}->https://reqres.in:443
+2019-07-02 18:19:10 110 DEBUG DefaultHttpClientConnectionOperator:138 - Connecting to reqres.in/104.27.135.11:443
+2019-07-02 18:19:10 110 DEBUG SSLConnectionSocketFactory:335 - Connecting socket to reqres.in/104.27.135.11:443 with timeout 0
+2019-07-02 18:19:10 200 DEBUG SSLConnectionSocketFactory:388 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2019-07-02 18:19:10 201 DEBUG SSLConnectionSocketFactory:389 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2019-07-02 18:19:10 201 DEBUG SSLConnectionSocketFactory:393 - Starting handshake
+2019-07-02 18:19:10 876 DEBUG SSLConnectionSocketFactory:423 - Secure session established
+2019-07-02 18:19:10 877 DEBUG SSLConnectionSocketFactory:424 -  negotiated protocol: TLSv1.2
+2019-07-02 18:19:10 877 DEBUG SSLConnectionSocketFactory:425 -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+2019-07-02 18:19:10 877 DEBUG SSLConnectionSocketFactory:433 -  peer principal: CN=sni96286.cloudflaressl.com, OU=PositiveSSL Multi-Domain, OU=Domain Control Validated
+2019-07-02 18:19:10 877 DEBUG SSLConnectionSocketFactory:442 -  peer alternative names: [sni96286.cloudflaressl.com, *.alypa.cl, *.arredamentobar.altervista.org, *.balloornssq.tk, *.candfortcogci.ml, *.cetiontop.tk, *.dhcmx.com, *.dogtklonfercver.cf, *.getthedjobsq.ga, *.gogwamiri.ga, *.hurtworld-servers.ru, *.instintobasico.com.br, *.jedzto.ga, *.kemiyyru.cf, *.murdochfamily.id.au, *.precisioncleaninghawaii.com, *.ranalemdi.cf, *.reqres.in, *.rescatevalencia.org, *.rorimaq.com.br, *.siemon.id.au, *.tetete.ru, *.thrivenowseminars.com, *.tiotrominti.ga, *.tivpihelpsq.cf, *.tonysnails.com, *.trochbannomer.cf, *.visiondefender.co.uk, *.ymyhyjydexy.tk, alypa.cl, arredamentobar.altervista.org, balloornssq.tk, candfortcogci.ml, cetiontop.tk, dhcmx.com, dogtklonfercver.cf, getthedjobsq.ga, gogwamiri.ga, hurtworld-servers.ru, instintobasico.com.br, jedzto.ga, kemiyyru.cf, murdochfamily.id.au, precisioncleaninghawaii.com, ranalemdi.cf, reqres.in, rescatevalencia.org, rorimaq.com.br, siemon.id.au, tetete.ru, thrivenowseminars.com, tiotrominti.ga, tivpihelpsq.cf, tonysnails.com, trochbannomer.cf, visiondefender.co.uk, ymyhyjydexy.tk]
+2019-07-02 18:19:10 878 DEBUG SSLConnectionSocketFactory:446 -  issuer principal: CN=COMODO ECC Domain Validation Secure Server CA 2, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB
+2019-07-02 18:19:10 880 DEBUG DefaultHttpClientConnectionOperator:145 - Connection established 172.16.47.173:51216<->104.27.135.11:443
+2019-07-02 18:19:10 881 DEBUG MainClientExec:255 - Executing request GET /api/users?page=2 HTTP/1.1
+2019-07-02 18:19:10 881 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-07-02 18:19:10 881 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-07-02 18:19:10 882 DEBUG headers:135 - http-outgoing-0 >> GET /api/users?page=2 HTTP/1.1
+2019-07-02 18:19:10 882 DEBUG headers:138 - http-outgoing-0 >> Host: reqres.in
+2019-07-02 18:19:10 882 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2019-07-02 18:19:10 882 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)
+2019-07-02 18:19:10 882 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-07-02 18:19:10 882 DEBUG wire:72 - http-outgoing-0 >> "GET /api/users?page=2 HTTP/1.1[\r][\n]"
+2019-07-02 18:19:10 883 DEBUG wire:72 - http-outgoing-0 >> "Host: reqres.in[\r][\n]"
+2019-07-02 18:19:10 883 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-07-02 18:19:10 883 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_211)[\r][\n]"
+2019-07-02 18:19:10 883 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-07-02 18:19:10 883 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2019-07-02 18:19:10 941 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-07-02 18:19:10 941 DEBUG wire:72 - http-outgoing-0 << "Date: Tue, 02 Jul 2019 10:19:10 GMT[\r][\n]"
+2019-07-02 18:19:10 942 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-07-02 18:19:10 943 DEBUG wire:72 - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2019-07-02 18:19:10 943 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2019-07-02 18:19:10 944 DEBUG wire:72 - http-outgoing-0 << "Set-Cookie: __cfduid=d69523f5486f1917044f7eff38288c6de1562062750; expires=Wed, 01-Jul-20 10:19:10 GMT; path=/; domain=.reqres.in; HttpOnly; Secure[\r][\n]"
+2019-07-02 18:19:10 944 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2019-07-02 18:19:10 945 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-07-02 18:19:10 945 DEBUG wire:72 - http-outgoing-0 << "Etag: W/"21c-V3l8h04l5/8zLV+i3u8GJo8G3Y8"[\r][\n]"
+2019-07-02 18:19:10 946 DEBUG wire:72 - http-outgoing-0 << "Via: 1.1 vegur[\r][\n]"
+2019-07-02 18:19:10 946 DEBUG wire:72 - http-outgoing-0 << "CF-Cache-Status: HIT[\r][\n]"
+2019-07-02 18:19:10 946 DEBUG wire:72 - http-outgoing-0 << "Age: 4226[\r][\n]"
+2019-07-02 18:19:10 947 DEBUG wire:72 - http-outgoing-0 << "Expires: Tue, 02 Jul 2019 14:19:10 GMT[\r][\n]"
+2019-07-02 18:19:10 947 DEBUG wire:72 - http-outgoing-0 << "Cache-Control: public, max-age=14400[\r][\n]"
+2019-07-02 18:19:10 947 DEBUG wire:72 - http-outgoing-0 << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2019-07-02 18:19:10 948 DEBUG wire:72 - http-outgoing-0 << "Vary: Accept-Encoding[\r][\n]"
+2019-07-02 18:19:10 948 DEBUG wire:72 - http-outgoing-0 << "Server: cloudflare[\r][\n]"
+2019-07-02 18:19:10 948 DEBUG wire:72 - http-outgoing-0 << "CF-RAY: 4effe13ea97ad19f-HKG[\r][\n]"
+2019-07-02 18:19:10 949 DEBUG wire:72 - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2019-07-02 18:19:10 949 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-07-02 18:19:10 949 DEBUG wire:72 - http-outgoing-0 << "f9[\r][\n]"
+2019-07-02 18:19:10 950 DEBUG wire:72 - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xa5][0xce]MK[0x3]1[0x10][0x6][0xe0][0xff]2[0xe7][0x90][0xd0][0xad][0x8a][0xe4]$[0x88][0xe0][0xc5][0x8b][0xf4]&R[0xc6]t[0xba][0x9b][0x92]d[0xb6][0x93]q[0x8b][0x96][0xfe]wqWX[0xa8][0xe8][0xa5][0x97]a[0xbe]^x[0x8e][0xd0]cK[0xe0][0x1b][0x3]=[0xc9]z[0x1a][0x96][0x6][0x94][0x15][0x13][0xf8]E[0xf3][0xd3][0x8e][0x97][\n]"
+2019-07-02 18:19:10 950 DEBUG wire:72 - http-outgoing-0 << "[0xfe][0xca][0xc0][0x6][0x15][0xc1][0xbf][0x1c]!n[0xc6][0x99]2[0xc6][0x4][0x1e]h [0xdb]q[0xd2];[0xa1][0xbd]P[0xb5][0xb1][0x80][0x81]m[0x94][0xaa][0xeb][0x82][0x99][0xc0][0xc3][0xc3]@` [0xe1][0xbc]y[0xe4][0xa4]`[0x0][0x7]T[0x14][0xf0][0xd0][0xa9][0xf6][0xd5];W[0x97][0x16]3~r[0xc1]C[0xb5][0x81][0xb3]{[0x8f][[0xc]T[0xdd]T[0xf5][0x10]UI\F[0x9],[0x98][0xa3]Pu[0x8b][0xe6][0xd6][0xee][0xfa][0x16]Nf[0xa2]][0xcf][0xb4][0xd0][0xa1]$[0xaa]6[0xb3]H[0xac][0x3][0xef][0xa7][0xbf]3[0xe4][0xd3][0x98][0xba][0x80]Y[0x95][0xfa][0x8e]Jf.[0xbf][0x94]7[0xb3]R[0x5][0x3]}X[0xc1][0xcc][0xff][0x18]W[0xe3][0xd7][0x19][0xf1][0xf9];s[0x81][0xf0]-[0xb6][0x19]K[0xe8]x[0xf6][0xbd][0x9e][0xbe][0x0]]zu[0xb8][0x1c][0x2][0x0][0x0][\r][\n]"
+2019-07-02 18:19:10 958 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-07-02 18:19:10 958 DEBUG headers:127 - http-outgoing-0 << Date: Tue, 02 Jul 2019 10:19:10 GMT
+2019-07-02 18:19:10 958 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2019-07-02 18:19:10 959 DEBUG headers:127 - http-outgoing-0 << Transfer-Encoding: chunked
+2019-07-02 18:19:10 959 DEBUG headers:127 - http-outgoing-0 << Connection: keep-alive
+2019-07-02 18:19:10 959 DEBUG headers:127 - http-outgoing-0 << Set-Cookie: __cfduid=d69523f5486f1917044f7eff38288c6de1562062750; expires=Wed, 01-Jul-20 10:19:10 GMT; path=/; domain=.reqres.in; HttpOnly; Secure
+2019-07-02 18:19:10 959 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: Express
+2019-07-02 18:19:10 959 DEBUG headers:127 - http-outgoing-0 << Access-Control-Allow-Origin: *
+2019-07-02 18:19:10 959 DEBUG headers:127 - http-outgoing-0 << Etag: W/"21c-V3l8h04l5/8zLV+i3u8GJo8G3Y8"
+2019-07-02 18:19:10 959 DEBUG headers:127 - http-outgoing-0 << Via: 1.1 vegur
+2019-07-02 18:19:10 959 DEBUG headers:127 - http-outgoing-0 << CF-Cache-Status: HIT
+2019-07-02 18:19:10 959 DEBUG headers:127 - http-outgoing-0 << Age: 4226
+2019-07-02 18:19:10 959 DEBUG headers:127 - http-outgoing-0 << Expires: Tue, 02 Jul 2019 14:19:10 GMT
+2019-07-02 18:19:10 959 DEBUG headers:127 - http-outgoing-0 << Cache-Control: public, max-age=14400
+2019-07-02 18:19:10 960 DEBUG headers:127 - http-outgoing-0 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2019-07-02 18:19:10 960 DEBUG headers:127 - http-outgoing-0 << Vary: Accept-Encoding
+2019-07-02 18:19:10 960 DEBUG headers:127 - http-outgoing-0 << Server: cloudflare
+2019-07-02 18:19:10 960 DEBUG headers:127 - http-outgoing-0 << CF-RAY: 4effe13ea97ad19f-HKG
+2019-07-02 18:19:10 960 DEBUG headers:127 - http-outgoing-0 << Content-Encoding: gzip
+2019-07-02 18:19:10 963 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-07-02 18:19:10 968 DEBUG ResponseProcessCookies:118 - Cookie accepted [__cfduid="d69523f5486f1917044f7eff38288c6de1562062750", version:0, domain:reqres.in, path:/, expiry:Wed Jul 01 18:19:10 CST 2020]
+2019-07-02 18:19:10 969 INFO  RestClient:43 - 发送请求成功！开始得到响应对象。
+2019-07-02 18:19:10 969 INFO  RestClient:146 - 解析，得到响应状态码:200
+2019-07-02 18:19:10 970 INFO  RestClient:160 - 得到响应对象的String格式
+2019-07-02 18:19:11 285 DEBUG wire:72 - http-outgoing-0 << "0[\r][\n]"
+2019-07-02 18:19:11 285 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-07-02 18:19:11 286 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://reqres.in:443] can be kept alive indefinitely
+2019-07-02 18:19:11 287 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://reqres.in:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-07-02 18:19:11 351 INFO  RestClient:163 - 返回响应内容的JSON格式
